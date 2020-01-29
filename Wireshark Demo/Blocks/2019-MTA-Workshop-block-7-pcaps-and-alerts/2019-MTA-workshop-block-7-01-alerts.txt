@@ -1,0 +1,81 @@
+------------------------------------------------------------------------
+Count:1 Event#3.85719 2019-05-03 15:17 UTC
+ET INFO DNS Query for Suspicious .cf Domain
+10.0.40.217 -> 10.0.40.4
+IPVer=4 hlen=5 tos=0 dlen=58 ID=439 flags=0 offset=0 ttl=128 chksum=54303
+Protocol: 17 sport=64624 -> dport=53
+
+len=38 chksum=38576
+------------------------------------------------------------------------
+Count:6 Event#3.85720 2019-05-03 15:17 UTC
+ET TROJAN LokiBot User-Agent (Charon/Inferno)
+10.0.40.217 -> 104.24.112.109
+IPVer=4 hlen=5 tos=0 dlen=278 ID=0 flags=0 offset=0 ttl=0 chksum=44676
+Protocol: 6 sport=49206 -> dport=80
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=49663 chksum=0
+------------------------------------------------------------------------
+Count:6 Event#3.85721 2019-05-03 15:17 UTC
+ET TROJAN LokiBot Checkin
+10.0.40.217 -> 104.24.112.109
+IPVer=4 hlen=5 tos=0 dlen=278 ID=0 flags=0 offset=0 ttl=0 chksum=44676
+Protocol: 6 sport=49206 -> dport=80
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=49663 chksum=0
+------------------------------------------------------------------------
+Count:6 Event#3.85722 2019-05-03 15:17 UTC
+ET INFO HTTP POST Request to Suspicious *.cf Domain
+10.0.40.217 -> 104.24.112.109
+IPVer=4 hlen=5 tos=0 dlen=278 ID=0 flags=0 offset=0 ttl=0 chksum=44676
+Protocol: 6 sport=49206 -> dport=80
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=49663 chksum=0
+------------------------------------------------------------------------
+Count:4 Event#3.85723 2019-05-03 15:17 UTC
+ET TROJAN LokiBot Application/Credential Data Exfiltration Detected M1
+10.0.40.217 -> 104.24.112.109
+IPVer=4 hlen=5 tos=0 dlen=278 ID=0 flags=0 offset=0 ttl=0 chksum=44676
+Protocol: 6 sport=49206 -> dport=80
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=49663 chksum=0
+------------------------------------------------------------------------
+Count:4 Event#3.85725 2019-05-03 15:17 UTC
+ET TROJAN LokiBot Application/Credential Data Exfiltration Detected M2
+10.0.40.217 -> 104.24.112.109
+IPVer=4 hlen=5 tos=0 dlen=278 ID=0 flags=0 offset=0 ttl=0 chksum=44676
+Protocol: 6 sport=49206 -> dport=80
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=49663 chksum=0
+------------------------------------------------------------------------
+Count:12 Event#3.85727 2019-05-03 15:17 UTC
+ETPRO TROJAN LokiBot Checkin M2
+10.0.40.217 -> 104.24.112.109
+IPVer=4 hlen=5 tos=0 dlen=278 ID=0 flags=0 offset=0 ttl=0 chksum=44676
+Protocol: 6 sport=49206 -> dport=80
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=49663 chksum=0
+------------------------------------------------------------------------
+Count:8 Event#3.85741 2019-05-03 15:17 UTC
+ET TROJAN LokiBot Request for C2 Commands Detected M1
+10.0.40.217 -> 104.24.112.109
+IPVer=4 hlen=5 tos=0 dlen=278 ID=0 flags=0 offset=0 ttl=0 chksum=44676
+Protocol: 6 sport=49208 -> dport=80
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=49142 chksum=0
+------------------------------------------------------------------------
+Count:8 Event#3.85743 2019-05-03 15:17 UTC
+ET TROJAN LokiBot Request for C2 Commands Detected M2
+10.0.40.217 -> 104.24.112.109
+IPVer=4 hlen=5 tos=0 dlen=278 ID=0 flags=0 offset=0 ttl=0 chksum=44676
+Protocol: 6 sport=49208 -> dport=80
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=49142 chksum=0
+------------------------------------------------------------------------
+Count:4 Event#3.85774 2019-05-03 15:17 UTC
+ET TROJAN LokiBot Fake 404 Response
+104.24.112.109 -> 10.0.40.217
+IPVer=4 hlen=5 tos=0 dlen=401 ID=0 flags=0 offset=0 ttl=0 chksum=44553
+Protocol: 6 sport=80 -> dport=49208
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=21611 chksum=0
+

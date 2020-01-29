@@ -1,0 +1,4 @@
+slides and pcaps used in this presentation were obtained in part from the malware traffic analysis workshop 2019 at Bsides Augusta. 
+Origionaly presented by Brad Duncan who is a threat intelligence analysist for Paloalto networks and a member of Unit 42. 
+
+find him on twitter @malware_traffic

@@ -1,0 +1,65 @@
+------------------------------------------------------------------------
+Count:1 Event#3.86342 2019-05-03 16:19 UTC
+ET POLICY exe download without User Agent
+10.0.40.135 -> 64.188.12.124
+IPVer=4 hlen=5 tos=0 dlen=112 ID=0 flags=0 offset=0 ttl=0 chksum=15050
+Protocol: 6 sport=49201 -> dport=80
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=38985 chksum=0
+------------------------------------------------------------------------
+Count:1 Event#3.86343 2019-05-03 16:19 UTC
+ET POLICY exe download via HTTP - Informational
+10.0.40.135 -> 64.188.12.124
+IPVer=4 hlen=5 tos=0 dlen=112 ID=0 flags=0 offset=0 ttl=0 chksum=15050
+Protocol: 6 sport=49201 -> dport=80
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=38985 chksum=0
+------------------------------------------------------------------------
+Count:1 Event#3.86344 2019-05-03 16:19 UTC
+ET INFO Executable Download from dotted-quad Host
+10.0.40.135 -> 64.188.12.124
+IPVer=4 hlen=5 tos=0 dlen=112 ID=0 flags=0 offset=0 ttl=0 chksum=15050
+Protocol: 6 sport=49201 -> dport=80
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=38985 chksum=0
+------------------------------------------------------------------------
+Count:2 Event#3.86345 2019-05-03 16:19 UTC
+ET POLICY Binary Download Smaller than 1 MB Likely Hostile
+64.188.12.124 -> 10.0.40.135
+IPVer=4 hlen=5 tos=0 dlen=1500 ID=0 flags=0 offset=0 ttl=0 chksum=13662
+Protocol: 6 sport=80 -> dport=49201
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=24397 chksum=0
+------------------------------------------------------------------------
+Count:28 Event#3.86347 2019-05-03 16:19 UTC
+ET POLICY PE EXE or DLL Windows file download HTTP
+64.188.12.124 -> 10.0.40.135
+IPVer=4 hlen=5 tos=0 dlen=1500 ID=0 flags=0 offset=0 ttl=0 chksum=13662
+Protocol: 6 sport=80 -> dport=49201
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=24397 chksum=0
+------------------------------------------------------------------------
+Count:1 Event#3.86431 2019-05-03 16:19 UTC
+ETPRO TROJAN AZORult CnC Beacon M1
+10.0.40.135 -> 64.188.12.124
+IPVer=4 hlen=5 tos=0 dlen=292 ID=0 flags=0 offset=0 ttl=0 chksum=14870
+Protocol: 6 sport=49202 -> dport=80
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=27600 chksum=0
+------------------------------------------------------------------------
+Count:17 Event#3.86432 2019-05-03 16:19 UTC
+ET INFO GENERIC SUSPICIOUS POST to Dotted Quad with Fake Browser 1
+10.0.40.135 -> 64.188.12.124
+IPVer=4 hlen=5 tos=0 dlen=292 ID=0 flags=0 offset=0 ttl=0 chksum=14870
+Protocol: 6 sport=49202 -> dport=80
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=27600 chksum=0
+------------------------------------------------------------------------
+Count:30 Event#3.86434 2019-05-03 16:19 UTC
+ETPRO TROJAN AZORult Variant.4 XORed Download
+64.188.12.124 -> 10.0.40.135
+IPVer=4 hlen=5 tos=0 dlen=1486 ID=0 flags=0 offset=0 ttl=0 chksum=13676
+Protocol: 6 sport=80 -> dport=49202
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=23866 chksum=0
+

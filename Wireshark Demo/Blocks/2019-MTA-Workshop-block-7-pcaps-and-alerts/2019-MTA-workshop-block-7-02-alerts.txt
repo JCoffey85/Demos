@@ -1,0 +1,97 @@
+------------------------------------------------------------------------
+Count:1 Event#3.85565 2019-05-03 14:38 UTC
+ETPRO CURRENT_EVENTS MalDoc Requesting Ursnif Payload 2018-09-24
+10.0.40.119 -> 194.147.35.112
+IPVer=4 hlen=5 tos=0 dlen=130 ID=0 flags=0 offset=0 ttl=0 chksum=41468
+Protocol: 6 sport=49204 -> dport=80
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=16638 chksum=0
+------------------------------------------------------------------------
+Count:6 Event#3.85566 2019-05-03 14:38 UTC
+ET POLICY Binary Download Smaller than 1 MB Likely Hostile
+194.147.35.112 -> 10.0.40.119
+IPVer=4 hlen=5 tos=0 dlen=1500 ID=0 flags=0 offset=0 ttl=0 chksum=40098
+Protocol: 6 sport=80 -> dport=49204
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=9208 chksum=0
+------------------------------------------------------------------------
+Count:29 Event#3.85572 2019-05-03 14:38 UTC
+ET POLICY PE EXE or DLL Windows file download HTTP
+194.147.35.112 -> 10.0.40.119
+IPVer=4 hlen=5 tos=0 dlen=1486 ID=0 flags=0 offset=0 ttl=0 chksum=40112
+Protocol: 6 sport=80 -> dport=49204
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=36542 chksum=0
+------------------------------------------------------------------------
+Count:5 Event#3.85659 2019-05-03 14:38 UTC
+ET TROJAN VMProtect Packed Binary Inbound via HTTP - Likely Hostile
+194.147.35.112 -> 10.0.40.119
+IPVer=4 hlen=5 tos=0 dlen=1500 ID=0 flags=0 offset=0 ttl=0 chksum=40098
+Protocol: 6 sport=80 -> dport=49204
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=45605 chksum=0
+------------------------------------------------------------------------
+Count:5 Event#3.85665 2019-05-03 14:39 UTC
+ETPRO TROJAN Ursnif Variant CnC Beacon 8 M1
+10.0.40.119 -> 185.189.12.139
+IPVer=4 hlen=5 tos=0 dlen=476 ID=0 flags=0 offset=0 ttl=0 chksum=49245
+Protocol: 6 sport=49205 -> dport=80
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=4036 chksum=0
+------------------------------------------------------------------------
+Count:2 Event#3.85666 2019-05-03 14:39 UTC
+ETPRO TROJAN Ursnif Variant CnC Beacon 8 M2
+10.0.40.119 -> 185.189.12.139
+IPVer=4 hlen=5 tos=0 dlen=476 ID=0 flags=0 offset=0 ttl=0 chksum=49245
+Protocol: 6 sport=49205 -> dport=80
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=4036 chksum=0
+------------------------------------------------------------------------
+Count:2 Event#3.85667 2019-05-03 14:39 UTC
+ETPRO CURRENT_EVENTS Ursnif Loader Activity 2018-09-25
+10.0.40.119 -> 185.189.12.139
+IPVer=4 hlen=5 tos=0 dlen=476 ID=0 flags=0 offset=0 ttl=0 chksum=49245
+Protocol: 6 sport=49205 -> dport=80
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=4036 chksum=0
+------------------------------------------------------------------------
+Count:1 Event#3.85674 2019-05-03 14:40 UTC
+ET POLICY External IP Lookup Domain (myip.opendns .com in DNS lookup)
+10.0.40.119 -> 208.67.222.222
+IPVer=4 hlen=5 tos=0 dlen=62 ID=806 flags=0 offset=0 ttl=128 chksum=22000
+Protocol: 17 sport=52194 -> dport=53
+
+len=42 chksum=58947
+------------------------------------------------------------------------
+Count:1 Event#3.85675 2019-05-03 14:40 UTC
+ET DNS Query to a *.top domain - Likely Hostile
+10.0.40.119 -> 10.0.40.4
+IPVer=4 hlen=5 tos=0 dlen=64 ID=809 flags=0 offset=0 ttl=128 chksum=54025
+Protocol: 17 sport=62049 -> dport=53
+
+len=44 chksum=831
+------------------------------------------------------------------------
+Count:3 Event#3.85676 2019-05-03 14:40 UTC
+ETPRO TROJAN Zeus Panda Banker / Ursnif Malicious SSL Certificate Detected
+185.139.70.182 -> 10.0.40.119
+IPVer=4 hlen=5 tos=0 dlen=980 ID=0 flags=0 offset=0 ttl=0 chksum=33900
+Protocol: 6 sport=443 -> dport=49214
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=55365 chksum=0
+------------------------------------------------------------------------
+Count:2 Event#3.85678 2019-05-03 14:40 UTC
+ET INFO Dotted Quad Host RAR Request
+10.0.40.119 -> 151.106.15.200
+IPVer=4 hlen=5 tos=0 dlen=215 ID=0 flags=0 offset=0 ttl=0 chksum=57464
+Protocol: 6 sport=49217 -> dport=80
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=65464 chksum=0
+------------------------------------------------------------------------
+Count:14 Event#3.85681 2019-05-03 14:45 UTC
+ETPRO TROJAN Zeus Panda Banker / Ursnif Malicious SSL Certificate Detected
+185.25.50.168 -> 10.0.40.119
+IPVer=4 hlen=5 tos=0 dlen=762 ID=0 flags=0 offset=0 ttl=0 chksum=39366
+Protocol: 6 sport=443 -> dport=49219
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=63179 chksum=0
+

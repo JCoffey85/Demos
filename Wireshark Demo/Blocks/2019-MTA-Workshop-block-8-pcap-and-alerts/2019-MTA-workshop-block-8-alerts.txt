@@ -1,0 +1,145 @@
+------------------------------------------------------------------------
+Count:1 Event#3.86916 2019-05-06 02:00 UTC
+GPL WEB_CLIENT web bug 0x0 gif attempt
+101.50.1.12 -> 172.16.2.209
+IPVer=4 hlen=5 tos=0 dlen=394 ID=38045 flags=2 offset=0 ttl=49 chksum=40625
+Protocol: 6 sport=80 -> dport=49195
+
+Seq=2865366382 Ack=1900803096 Off=5 Res=0 Flags=***AP*** Win=421 urp=16880 chksum=0
+------------------------------------------------------------------------
+Count:14 Event#3.86918 2019-05-06 02:00 UTC
+ET POLICY Lets Encrypt Free SSL Cert Observed
+130.117.76.9 -> 172.16.2.209
+IPVer=4 hlen=5 tos=0 dlen=576 ID=0 flags=0 offset=0 ttl=0 chksum=15193
+Protocol: 6 sport=443 -> dport=49215
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=36907 chksum=0
+------------------------------------------------------------------------
+Count:46 Event#3.86934 2019-05-06 02:01 UTC
+ET SHELLCODE UTF-8/16 Encoded Shellcode
+50.57.205.124 -> 172.16.2.83
+IPVer=4 hlen=5 tos=0 dlen=1316 ID=0 flags=0 offset=0 ttl=0 chksum=1980
+Protocol: 6 sport=80 -> dport=49519
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=27113 chksum=0
+------------------------------------------------------------------------
+Count:1 Event#3.86993 2019-05-06 02:02 UTC
+ET POLICY exe download via HTTP - Informational
+172.16.2.97 -> 209.90.88.136
+IPVer=4 hlen=5 tos=0 dlen=360 ID=0 flags=0 offset=0 ttl=0 chksum=57660
+Protocol: 6 sport=49195 -> dport=80
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=1492 chksum=0
+------------------------------------------------------------------------
+Count:1 Event#3.86994 2019-05-06 02:02 UTC
+ET CURRENT_EVENTS Terse alphanumeric executable downloader high likelihood of being hostile
+172.16.2.97 -> 209.90.88.136
+IPVer=4 hlen=5 tos=0 dlen=360 ID=0 flags=0 offset=0 ttl=0 chksum=57660
+Protocol: 6 sport=49195 -> dport=80
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=1492 chksum=0
+------------------------------------------------------------------------
+Count:10 Event#3.86995 2019-05-06 02:02 UTC
+ET POLICY Binary Download Smaller than 1 MB Likely Hostile
+209.90.88.136 -> 172.16.2.97
+IPVer=4 hlen=5 tos=0 dlen=1328 ID=0 flags=0 offset=0 ttl=0 chksum=56692
+Protocol: 6 sport=80 -> dport=49195
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=39510 chksum=0
+------------------------------------------------------------------------
+Count:37 Event#3.87005 2019-05-06 02:02 UTC
+ET POLICY PE EXE or DLL Windows file download HTTP
+209.90.88.136 -> 172.16.2.97
+IPVer=4 hlen=5 tos=0 dlen=1328 ID=0 flags=0 offset=0 ttl=0 chksum=56692
+Protocol: 6 sport=80 -> dport=49195
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=39510 chksum=0
+------------------------------------------------------------------------
+Count:47 Event#3.87042 2019-05-06 02:02 UTC
+ET SHELLCODE Possible TCP x86 JMP to CALL Shellcode Detected
+209.90.88.136 -> 172.16.2.97
+IPVer=4 hlen=5 tos=0 dlen=1328 ID=0 flags=0 offset=0 ttl=0 chksum=56692
+Protocol: 6 sport=80 -> dport=49195
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=39510 chksum=0
+------------------------------------------------------------------------
+Count:16 Event#3.87089 2019-05-06 02:02 UTC
+ET TROJAN VMProtect Packed Binary Inbound via HTTP - Likely Hostile
+209.90.88.136 -> 172.16.2.97
+IPVer=4 hlen=5 tos=0 dlen=1328 ID=0 flags=0 offset=0 ttl=0 chksum=56692
+Protocol: 6 sport=80 -> dport=49195
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=41169 chksum=0
+------------------------------------------------------------------------
+Count:53 Event#3.87105 2019-05-06 02:02 UTC
+ETPRO TROJAN NanoCore RAT CnC 7
+172.16.2.97 -> 185.247.228.192
+IPVer=4 hlen=5 tos=0 dlen=52 ID=494 flags=2 offset=0 ttl=128 chksum=43948
+Protocol: 6 sport=49199 -> dport=4050
+
+Seq=1783385825 Ack=1160273927 Off=5 Res=0 Flags=***AP*** Win=260 urp=46187 chksum=0
+------------------------------------------------------------------------
+Count:53 Event#3.87106 2019-05-06 02:02 UTC
+ETPRO TROJAN NanoCore RAT CnC 19
+172.16.2.97 -> 185.247.228.192
+IPVer=4 hlen=5 tos=0 dlen=52 ID=494 flags=2 offset=0 ttl=128 chksum=43948
+Protocol: 6 sport=49199 -> dport=4050
+
+Seq=1783385825 Ack=1160273927 Off=5 Res=0 Flags=***AP*** Win=260 urp=46187 chksum=0
+------------------------------------------------------------------------
+Count:1 Event#3.87107 2019-05-06 02:02 UTC
+ET TROJAN Win32.Kovter Client CnC Traffic
+172.16.2.97 -> 185.247.228.192
+IPVer=4 hlen=5 tos=0 dlen=52 ID=626 flags=2 offset=0 ttl=128 chksum=43816
+Protocol: 6 sport=49199 -> dport=4050
+
+Seq=1783386069 Ack=1160632967 Off=5 Res=0 Flags=***AP*** Win=1200 urp=26165 chksum=0
+------------------------------------------------------------------------
+Count:30 Event#3.87112 2019-05-06 02:03 UTC
+ET TROJAN Possible NanoCore C2 64B
+172.16.2.97 -> 185.247.228.192
+IPVer=4 hlen=5 tos=0 dlen=108 ID=635 flags=2 offset=0 ttl=128 chksum=43751
+Protocol: 6 sport=49199 -> dport=4050
+
+Seq=1783386517 Ack=1160633219 Off=5 Res=0 Flags=***AP*** Win=1199 urp=40640 chksum=0
+------------------------------------------------------------------------
+Count:6 Event#3.87126 2019-05-06 02:03 UTC
+ET POLICY Lets Encrypt Free SSL Cert Observed
+23.7.134.29 -> 172.16.2.146
+IPVer=4 hlen=5 tos=0 dlen=1328 ID=10776 flags=2 offset=0 ttl=55 chksum=51433
+Protocol: 6 sport=443 -> dport=47418
+
+Seq=1771096675 Ack=2865718526 Off=8 Res=0 Flags=***A**** Win=235 urp=7605 chksum=0
+------------------------------------------------------------------------
+Count:1 Event#3.87135 2019-05-06 02:03 UTC
+ETPRO TROJAN NanoCore RAT Keep-Alive Beacon
+172.16.2.97 -> 185.247.228.192
+IPVer=4 hlen=5 tos=0 dlen=52 ID=670 flags=2 offset=0 ttl=128 chksum=43772
+Protocol: 6 sport=49199 -> dport=4050
+
+Seq=1783386929 Ack=1160633447 Off=5 Res=0 Flags=***AP*** Win=1198 urp=12300 chksum=0
+------------------------------------------------------------------------
+Count:1 Event#3.87138 2019-05-06 02:03 UTC
+ETPRO TROJAN Nanocore Checkin Pattern
+172.16.2.97 -> 185.247.228.192
+IPVer=4 hlen=5 tos=0 dlen=52 ID=674 flags=2 offset=0 ttl=128 chksum=43768
+Protocol: 6 sport=49199 -> dport=4050
+
+Seq=1783386941 Ack=1160633459 Off=5 Res=0 Flags=***AP*** Win=1198 urp=12276 chksum=0
+------------------------------------------------------------------------
+Count:1 Event#3.87141 2019-05-06 02:03 UTC
+ETPRO TROJAN NanoCore RAT Keepalive Response 3
+185.247.228.192 -> 172.16.2.97
+IPVer=4 hlen=5 tos=0 dlen=52 ID=25699 flags=2 offset=0 ttl=111 chksum=23095
+Protocol: 6 sport=4050 -> dport=49199
+
+Seq=1160633495 Ack=1783387021 Off=5 Res=0 Flags=***AP*** Win=62 urp=13296 chksum=0
+------------------------------------------------------------------------
+Count:1 Event#3.87149 2019-05-06 02:04 UTC
+ETPRO TROJAN NanoCore RAT Keepalive Response 1
+185.247.228.192 -> 172.16.2.97
+IPVer=4 hlen=5 tos=0 dlen=76 ID=28313 flags=2 offset=0 ttl=111 chksum=20457
+Protocol: 6 sport=4050 -> dport=49199
+
+Seq=1160633567 Ack=1783387125 Off=5 Res=0 Flags=***AP*** Win=67 urp=18124 chksum=0
+

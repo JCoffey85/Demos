@@ -1,0 +1,209 @@
+------------------------------------------------------------------------
+Count:1 Event#3.103945 2019-05-03 14:52 UTC
+ET POLICY Office Document Download Containing AutoOpen Macro
+150.95.54.148 -> 10.0.40.93
+IPVer=4 hlen=5 tos=0 dlen=1500 ID=0 flags=0 offset=0 ttl=0 chksum=46540
+Protocol: 6 sport=80 -> dport=49204
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=8013 chksum=0
+------------------------------------------------------------------------
+Count:2 Event#3.103946 2019-05-03 14:52 UTC
+ET WEB_CLIENT SUSPICIOUS Possible Office Doc with Embedded VBA Project (Wide)
+150.95.54.148 -> 10.0.40.93
+IPVer=4 hlen=5 tos=0 dlen=1500 ID=0 flags=0 offset=0 ttl=0 chksum=46540
+Protocol: 6 sport=80 -> dport=49204
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=52144 chksum=0
+------------------------------------------------------------------------
+Count:29 Event#3.103948 2019-05-03 14:53 UTC
+ET POLICY PE EXE or DLL Windows file download HTTP
+31.186.83.164 -> 10.0.40.93
+IPVer=4 hlen=5 tos=0 dlen=1500 ID=0 flags=0 offset=0 ttl=0 chksum=3938
+Protocol: 6 sport=80 -> dport=49208
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=1876 chksum=0
+------------------------------------------------------------------------
+Count:29 Event#3.103977 2019-05-03 14:53 UTC
+ET INFO Executable Retrieved With Minimal HTTP Headers - Potential Second Stage Download
+31.186.83.164 -> 10.0.40.93
+IPVer=4 hlen=5 tos=0 dlen=1500 ID=0 flags=0 offset=0 ttl=0 chksum=3938
+Protocol: 6 sport=80 -> dport=49208
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=1876 chksum=0
+------------------------------------------------------------------------
+Count:29 Event#3.104006 2019-05-03 14:53 UTC
+ET INFO EXE - Served Attached HTTP
+31.186.83.164 -> 10.0.40.93
+IPVer=4 hlen=5 tos=0 dlen=1500 ID=0 flags=0 offset=0 ttl=0 chksum=3938
+Protocol: 6 sport=80 -> dport=49208
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=1876 chksum=0
+------------------------------------------------------------------------
+Count:1 Event#3.104035 2019-05-03 14:53 UTC
+ETPRO TROJAN Win32/Emotet CnC Activity (POST) M2
+10.0.40.93 -> 82.28.208.186
+IPVer=4 hlen=5 tos=0 dlen=994 ID=0 flags=0 offset=0 ttl=0 chksum=25059
+Protocol: 6 sport=49209 -> dport=80
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=19114 chksum=0
+------------------------------------------------------------------------
+Count:3 Event#3.104036 2019-05-03 14:53 UTC
+ETPRO TROJAN Win32/Emotet CnC Activity (POST) M3
+10.0.40.93 -> 82.28.208.186
+IPVer=4 hlen=5 tos=0 dlen=994 ID=0 flags=0 offset=0 ttl=0 chksum=25059
+Protocol: 6 sport=49209 -> dport=80
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=19114 chksum=0
+------------------------------------------------------------------------
+Count:3 Event#3.104037 2019-05-03 14:53 UTC
+ETPRO TROJAN Win32/Emotet CnC Activity (POST) M4
+10.0.40.93 -> 82.28.208.186
+IPVer=4 hlen=5 tos=0 dlen=994 ID=0 flags=0 offset=0 ttl=0 chksum=25059
+Protocol: 6 sport=49209 -> dport=80
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=19114 chksum=0
+------------------------------------------------------------------------
+Count:10 Event#3.104042 2019-05-03 14:55 UTC
+ETPRO TROJAN Observed Trickbot Style SSL Cert (Internet Widgets Pty Ltd)
+186.226.188.105 -> 10.0.40.93
+IPVer=4 hlen=5 tos=0 dlen=1362 ID=0 flags=0 offset=0 ttl=0 chksum=3070
+Protocol: 6 sport=449 -> dport=49210
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=33033 chksum=0
+------------------------------------------------------------------------
+Count:10 Event#3.104043 2019-05-03 14:55 UTC
+ET POLICY OpenSSL Demo CA - Internet Widgits Pty (O)
+186.226.188.105 -> 10.0.40.93
+IPVer=4 hlen=5 tos=0 dlen=1362 ID=0 flags=0 offset=0 ttl=0 chksum=3070
+Protocol: 6 sport=449 -> dport=49210
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=33033 chksum=0
+------------------------------------------------------------------------
+Count:1 Event#3.104044 2019-05-03 14:55 UTC
+ET POLICY External IP Lookup api.ipify.org
+10.0.40.93 -> 54.235.124.112
+IPVer=4 hlen=5 tos=0 dlen=230 ID=0 flags=0 offset=0 ttl=0 chksum=54362
+Protocol: 6 sport=49212 -> dport=80
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=56276 chksum=0
+------------------------------------------------------------------------
+Count:2 Event#3.104047 2019-05-03 14:56 UTC
+ET TROJAN ABUSE.CH SSL Blacklist Malicious SSL certificate detected (Dridex/Trickbot CnC)
+92.38.135.135 -> 10.0.40.93
+IPVer=4 hlen=5 tos=0 dlen=1459 ID=0 flags=0 offset=0 ttl=0 chksum=40763
+Protocol: 6 sport=447 -> dport=49213
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=13478 chksum=0
+------------------------------------------------------------------------
+Count:1 Event#3.104048 2019-05-03 14:56 UTC
+ET POLICY HTTP Request on Unusual Port Possibly Hostile
+10.0.40.93 -> 186.159.1.217
+IPVer=4 hlen=5 tos=0 dlen=1500 ID=1193 flags=2 offset=0 ttl=128 chksum=414
+Protocol: 6 sport=49216 -> dport=8082
+
+Seq=2791625706 Ack=1796608806 Off=5 Res=0 Flags=***A**** Win=64240 urp=21413 chksum=0
+------------------------------------------------------------------------
+Count:2 Event#3.104049 2019-05-03 14:56 UTC
+ET POLICY HTTP POST on unusual Port Possibly Hostile
+10.0.40.93 -> 186.159.1.217
+IPVer=4 hlen=5 tos=0 dlen=271 ID=0 flags=0 offset=0 ttl=0 chksum=51988
+Protocol: 6 sport=49216 -> dport=8082
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=32565 chksum=0
+------------------------------------------------------------------------
+Count:8 Event#3.104050 2019-05-03 14:56 UTC
+ETPRO TROJAN W32/Trickbot C2 (networkDll module)
+10.0.40.93 -> 186.159.1.217
+IPVer=4 hlen=5 tos=0 dlen=271 ID=0 flags=0 offset=0 ttl=0 chksum=51988
+Protocol: 6 sport=49216 -> dport=8082
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=32565 chksum=0
+------------------------------------------------------------------------
+Count:2 Event#3.104053 2019-05-03 14:56 UTC
+ETPRO TROJAN Trickbot Checkin Response
+186.159.1.217 -> 10.0.40.93
+IPVer=4 hlen=5 tos=0 dlen=160 ID=0 flags=0 offset=0 ttl=0 chksum=52099
+Protocol: 6 sport=8082 -> dport=49216
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=64143 chksum=0
+------------------------------------------------------------------------
+Count:5 Event#3.104057 2019-05-03 14:57 UTC
+ET MALWARE Windows executable sent when remote host claims to send an image
+198.12.71.6 -> 10.0.40.93
+IPVer=4 hlen=5 tos=0 dlen=1500 ID=0 flags=0 offset=0 ttl=0 chksum=30125
+Protocol: 6 sport=80 -> dport=49219
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=47814 chksum=0
+------------------------------------------------------------------------
+Count:5 Event#3.104062 2019-05-03 14:57 UTC
+ET POLICY Binary Download Smaller than 1 MB Likely Hostile
+198.12.71.6 -> 10.0.40.93
+IPVer=4 hlen=5 tos=0 dlen=1500 ID=0 flags=0 offset=0 ttl=0 chksum=30125
+Protocol: 6 sport=80 -> dport=49219
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=47814 chksum=0
+------------------------------------------------------------------------
+Count:5 Event#3.104067 2019-05-03 14:57 UTC
+ET MALWARE Windows executable sent when remote host claims to send an image M3
+198.12.71.6 -> 10.0.40.93
+IPVer=4 hlen=5 tos=0 dlen=1500 ID=0 flags=0 offset=0 ttl=0 chksum=30125
+Protocol: 6 sport=80 -> dport=49219
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=47814 chksum=0
+------------------------------------------------------------------------
+Count:28 Event#3.104072 2019-05-03 14:57 UTC
+ET POLICY PE EXE or DLL Windows file download HTTP
+198.12.71.6 -> 10.0.40.93
+IPVer=4 hlen=5 tos=0 dlen=1500 ID=0 flags=0 offset=0 ttl=0 chksum=30125
+Protocol: 6 sport=80 -> dport=49219
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=47814 chksum=0
+------------------------------------------------------------------------
+Count:28 Event#3.104100 2019-05-03 14:57 UTC
+ET INFO Executable Retrieved With Minimal HTTP Headers - Potential Second Stage Download
+198.12.71.6 -> 10.0.40.93
+IPVer=4 hlen=5 tos=0 dlen=1500 ID=0 flags=0 offset=0 ttl=0 chksum=30125
+Protocol: 6 sport=80 -> dport=49219
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=47814 chksum=0
+------------------------------------------------------------------------
+Count:28 Event#3.104128 2019-05-03 14:57 UTC
+ET INFO SUSPICIOUS Dotted Quad Host MZ Response
+198.12.71.6 -> 10.0.40.93
+IPVer=4 hlen=5 tos=0 dlen=1500 ID=0 flags=0 offset=0 ttl=0 chksum=30125
+Protocol: 6 sport=80 -> dport=49219
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=47814 chksum=0
+------------------------------------------------------------------------
+Count:5 Event#3.104157 2019-05-03 14:57 UTC
+ET TROJAN Suspicious POST with Common Windows Process Names - Possible Process List Exfiltration
+10.0.40.93 -> 186.159.1.217
+IPVer=4 hlen=5 tos=0 dlen=271 ID=0 flags=0 offset=0 ttl=0 chksum=51988
+Protocol: 6 sport=49224 -> dport=8082
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=29739 chksum=0
+------------------------------------------------------------------------
+Count:6 Event#3.104173 2019-05-03 14:57 UTC
+ETPRO NETBIOS Microsoft Windows Active Directory BROWSER ELECTION Buffer Overflow Inbound Netbios 138 1
+10.0.40.93 -> 10.0.40.255
+IPVer=4 hlen=5 tos=0 dlen=202 ID=1551 flags=0 offset=0 ttl=128 chksum=52920
+Protocol: 17 sport=138 -> dport=138
+
+len=182 chksum=19162
+------------------------------------------------------------------------
+Count:1 Event#3.104180 2019-05-03 14:57 UTC
+ET EXPLOIT Possible ETERNALBLUE Probe MS17-010 (Generic Flags)
+10.0.40.93 -> 10.0.40.4
+IPVer=4 hlen=5 tos=0 dlen=118 ID=1578 flags=2 offset=0 ttl=128 chksum=36855
+Protocol: 6 sport=49226 -> dport=445
+
+Seq=105356153 Ack=4239380169 Off=5 Res=0 Flags=***AP*** Win=255 urp=51670 chksum=0
+------------------------------------------------------------------------
+Count:1 Event#3.104181 2019-05-03 14:57 UTC
+ET EXPLOIT ETERNALBLUE Probe Vulnerable System Response MS17-010
+10.0.40.4 -> 10.0.40.93
+IPVer=4 hlen=5 tos=0 dlen=79 ID=5595 flags=2 offset=0 ttl=128 chksum=32877
+Protocol: 6 sport=445 -> dport=49226
+
+Seq=4239380169 Ack=105356231 Off=5 Res=0 Flags=***AP*** Win=255 urp=5372 chksum=0
+

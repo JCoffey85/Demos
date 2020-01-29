@@ -1,0 +1,33 @@
+------------------------------------------------------------------------
+Count:46 Event#3.85799 2019-05-03 15:28 UTC
+ETPRO TROJAN FormBook CnC Checkin (GET)
+10.0.40.175 -> 172.247.64.182
+IPVer=4 hlen=5 tos=0 dlen=222 ID=0 flags=0 offset=0 ttl=0 chksum=39358
+Protocol: 6 sport=49205 -> dport=80
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=3755 chksum=0
+------------------------------------------------------------------------
+Count:156 Event#3.85802 2019-05-03 15:28 UTC
+ETPRO TROJAN FormBook CnC Checkin (POST)
+10.0.40.175 -> 192.64.115.176
+IPVer=4 hlen=5 tos=0 dlen=1500 ID=0 flags=0 offset=0 ttl=0 chksum=20093
+Protocol: 6 sport=49207 -> dport=80
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=57999 chksum=0
+------------------------------------------------------------------------
+Count:1 Event#3.85861 2019-05-03 15:30 UTC
+ET DNS Query to a *.top domain - Likely Hostile
+10.0.40.175 -> 10.0.40.4
+IPVer=4 hlen=5 tos=0 dlen=61 ID=979 flags=0 offset=0 ttl=128 chksum=53802
+Protocol: 17 sport=49732 -> dport=53
+
+len=41 chksum=26892
+------------------------------------------------------------------------
+Count:5 Event#3.85863 2019-05-03 15:30 UTC
+ET INFO HTTP Request to a *.top domain
+10.0.40.175 -> 199.59.242.151
+IPVer=4 hlen=5 tos=0 dlen=222 ID=0 flags=0 offset=0 ttl=0 chksum=52632
+Protocol: 6 sport=49215 -> dport=80
+
+Seq=0 Ack=0 Off=5 Res=0 Flags=******** Win=0 urp=45954 chksum=0
+
